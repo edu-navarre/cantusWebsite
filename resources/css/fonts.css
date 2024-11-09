@@ -1,0 +1,89 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #ffacac;
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    text-decoration: none;
+}
+
+h2 a {
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.4s, color 0.4s;
+    display: inline-block;
+}
+
+h2 a:link,
+h2 a:visited {
+    text-decoration: none;
+    color:#ffffff;
+}
+
+h2 a:hover {
+    text-decoration: none;
+    color:#808080;
+    transform: scale(1.2);
+}
+
+h2 a:active {
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.header h1 {
+    font-size: 100px;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    color: #808080;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    height: 350px;
+    width: 900px;
+    border-radius: 15px;
+}
+
+.nav li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    height: 200px;
+    width: 350px;
+    margin: 0 40px;
+    font-size: 18px;
+}
+
+#garamond {
+    font-family: 'EB Garamond', sans-serif;
+}

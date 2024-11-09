@@ -1,0 +1,73 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #ffacac;
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.header h1 {
+    font-size: 130px;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+}
+
+.header span {
+    font-size: 24px;
+    font-weight: 70;
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    bottom: 150px;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.nav li a{
+    font-size: 25px;
+    transition: transform 0.4s, color 0.4s;
+    display: inline-block;
+}
+
+.nav li a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav li a:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav li a:hover{
+    color: #808080;
+    transform: scale(1.2);
+}
+
+.nav li a:active{
+    text-decoration: none;
+    transform: scale(0.9);
+}
